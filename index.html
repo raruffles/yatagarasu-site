@@ -3,45 +3,70 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#030407">
+  <meta name="theme-color" content="#040508">
   <meta name="description" content="YATAGARASU — Estúdio de design e tecnologia digital sob medida. Sua marca em outra dimensão.">
-  <title>YATAGARASU — Sua marca em outra dimensão.</title>
+  <title>YATAGARASU — Estúdio de Design &amp; Tecnologia Digital</title>
   <link rel="icon" type="image/png" href="assets/logo.png">
-  <link rel="stylesheet" href="style.css?v=7">
+  <link rel="stylesheet" href="style.css?v=12">
 </head>
 <body>
-  <a class="skip-link" href="#trabalhos">Pular para o conteúdo</a>
+  <!-- Ambient Cursor Spotlight Glow -->
+  <div class="ambient-glow" aria-hidden="true"></div>
 
+  <a class="skip-link" href="#estrategia">Pular para o conteúdo</a>
+
+  <!-- HEADER NAVEGAÇÃO -->
   <header>
     <a href="#" class="brand" aria-label="Yatagarasu início">
       <img src="assets/logo.png" alt="Yatagarasu" class="brand-logo" width="36" height="36">
       <span>YATAGARASU<small>DIGITAL STUDIO</small></span>
     </a>
     <nav id="navigation">
-      <a href="#trabalhos">Trabalhos</a>
+      <a href="#estrategia">Estratégia</a>
       <a href="#metodologia">Metodologia</a>
-      <a href="#solucoes">Soluções</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#comparativo">Diferenciais</a>
       <a href="#manifesto">Manifesto</a>
-      <a href="#experiencias">Experiências</a>
       <a href="#duvidas">Dúvidas</a>
     </nav>
-    <a class="nav-cta" href="#contato">Vamos conversar <span>↗</span></a>
+    <a class="nav-cta" href="#contato">
+      <span class="nav-cta-text">Iniciar projeto</span>
+      <span class="nav-cta-icon">
+        <svg class="icon-arrow icon-arrow-diagonal" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+      </span>
+    </a>
     <button class="menu" aria-label="Abrir menu" aria-expanded="false">☰</button>
   </header>
 
   <main>
-    <!-- HERO SECTION (ESTÚDIO KIMURA EDITORIAL + FUTURISMO) -->
+    <!-- HERO SECTION (ESTÚDIO KIMURA EDITORIAL + 3D FUTURISTA) -->
     <section class="dimension-hero">
       <div class="hero-photo" role="img" aria-label="Espaço de criação digital com iluminação cinematográfica azul e magenta"></div>
       <div class="hero-shade"></div>
       
       <div class="hero-text">
-        <span class="eyebrow">YATAGARASU / ESTÚDIO CRIATIVO & ENGENHARIA</span>
-        <h1>SUA VERDADE<br>EM ALTA VOZ.<br><em>EM OUTRA DIMENSÃO.</em></h1>
-        <p>Design fala quando palavras não são suficientes. Criamos presenças digitais que sustentam o valor da sua empresa e transformam visitantes em clientes de alto padrão.</p>
-        <div style="display:flex;align-items:center;gap:18px;flex-wrap:wrap">
-          <a class="circle-link" href="#trabalhos"><span>↓</span> Nossos trabalhos</a>
-          <a class="circle-link" href="#contato"><span>↗</span> Iniciar projeto</a>
+        <span class="eyebrow">YATAGARASU / ESTÚDIO CRIATIVO &amp; ENGENHARIA</span>
+        <h1 class="hero-title">
+          <span class="font-black hero-line-1">SUA VERDADE</span><br>
+          <span class="font-light hero-line-2">EM ALTA VOZ.</span><br>
+          <em class="font-black title-gradient hero-line-3">EM OUTRA DIMENSÃO.</em>
+        </h1>
+        <p class="hero-description">
+          Design fala quando palavras não são suficientes. Criamos presenças digitais que sustentam o valor da sua empresa e transformam visitantes em clientes de alto padrão.
+        </p>
+        <div class="hero-actions">
+          <a class="circle-link" href="#estrategia">
+            <span>
+              <svg class="icon-arrow icon-arrow-down" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+            </span>
+            Nossa estratégia
+          </a>
+          <a class="circle-link" href="#contato">
+            <span>
+              <svg class="icon-arrow icon-arrow-diagonal" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </span>
+            Agendar conversa
+          </a>
         </div>
       </div>
 
@@ -56,263 +81,463 @@
             <b id="slide-art">WEB<br>EXPERIENCE.</b>
             <span>YATAGARASU®</span>
           </div>
-          <div class="floating-chip">↗</div>
+          <div class="floating-chip">
+            <svg class="icon-arrow icon-arrow-diagonal" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+          </div>
         </div>
         <div class="discover-controls">
-          <button id="prev-slide" aria-label="Solução anterior">←</button>
-          <button id="next-slide" aria-label="Próxima solução">→</button>
+          <button id="prev-slide" aria-label="Solução anterior">
+            <svg class="icon-arrow icon-arrow-left" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+          </button>
+          <button id="next-slide" aria-label="Próxima solução">
+            <svg class="icon-arrow icon-arrow-right" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </button>
         </div>
         <h2 id="slide-title">Sites com identidade</h2>
         <p id="slide-description">Sua essência em cada detalhe. Uma presença digital que representa a sua marca.</p>
-        <a class="circle-link" id="slide-link" href="#contato" data-service="Site institucional"><span>↗</span> Descobrir</a>
+        <a class="circle-link" id="slide-link" href="#contato" data-service="Site institucional">
+          <span>
+            <svg class="icon-arrow icon-arrow-diagonal" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+          </span>
+          Descobrir
+        </a>
       </aside>
 
       <div class="hero-bottom">
-        <a href="#trabalhos">↓ &nbsp; PROJETOS SELECIONADOS</a>
+        <a href="#estrategia" class="hero-bottom-link">
+          <svg class="icon-arrow icon-arrow-down" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+          EXPLORE NOSSA ESTRATÉGIA
+        </a>
         <div class="slide-dots" aria-hidden="true"><i class="active"></i><i></i><i></i></div>
-        <span>DESIGN COM IDENTIDADE & PERFORMANCE.</span>
+        <span class="hero-bottom-tagline">DESIGN COM IDENTIDADE &amp; PERFORMANCE.</span>
       </div>
     </section>
 
-    <!-- NOSSOS TRABALHOS (GALERIA EDITORIAL ESTILO KIMURA) -->
-    <section id="trabalhos" class="section">
+    <!-- KIMURA SIGNATURE MARQUEE TICKER -->
+    <div class="ticker-wrap" aria-hidden="true">
+      <div class="ticker-track">
+        <div class="ticker-item"><b class="font-black">ESTRATÉGIA DE CONVERSÃO</b> <span class="ticker-dot">·</span></div>
+        <div class="ticker-item font-light">DESIGN AUTORAL <span class="ticker-dot">·</span></div>
+        <div class="ticker-item"><b class="font-black">ENGENHARIA DE SOFTWARE</b> <span class="ticker-dot">·</span></div>
+        <div class="ticker-item font-light">CORE WEB VITALS 100% <span class="ticker-dot">·</span></div>
+        <div class="ticker-item"><b class="font-black">IDENTIDADE DIGITAL DE LUXO</b> <span class="ticker-dot">·</span></div>
+        <div class="ticker-item font-light">SEM TEMPLATES PRONTOS <span class="ticker-dot">·</span></div>
+        <!-- Duplicação para loop contínuo infinito -->
+        <div class="ticker-item"><b class="font-black">ESTRATÉGIA DE CONVERSÃO</b> <span class="ticker-dot">·</span></div>
+        <div class="ticker-item font-light">DESIGN AUTORAL <span class="ticker-dot">·</span></div>
+        <div class="ticker-item"><b class="font-black">ENGENHARIA DE SOFTWARE</b> <span class="ticker-dot">·</span></div>
+        <div class="ticker-item font-light">CORE WEB VITALS 100% <span class="ticker-dot">·</span></div>
+        <div class="ticker-item"><b class="font-black">IDENTIDADE DIGITAL DE LUXO</b> <span class="ticker-dot">·</span></div>
+        <div class="ticker-item font-light">SEM TEMPLATES PRONTOS <span class="ticker-dot">·</span></div>
+      </div>
+    </div>
+
+    <!-- ESTRATÉGIA DE CONVERSÃO & AUTORIDADE (BASEADO NO CRIATIVO OFICIAL YATAGARASU) -->
+    <section id="estrategia" class="section reveal">
       <div class="kimura-title">
-        <span class="eyebrow">PORTFÓLIO & CASOS DE ESTUDO</span>
-        <h2>NOSSOS TRABALHOS</h2>
-        <p>Projetos e soluções digitais onde estratégia de conversão, direção de arte autoral e código artesanal trabalham juntos.</p>
+        <span class="eyebrow">DA VISIBILIDADE À CONVERSÃO</span>
+        <h2 class="kimura-heading">
+          <span class="font-light">SER VISTO NÃO É</span>
+          <span class="font-black">SER LEMBRADO.</span>
+        </h2>
+        <p>A atenção começa com relevância. Mas o interesse precisa encontrar um caminho claro e sem fricção até o fechamento.</p>
       </div>
 
-      <div class="cases-grid">
-        <article class="case-card">
-          <div class="case-visual">
-            <div class="object-window"><div></div><b>LUMINA<br>STUDIO.</b><span>↗</span></div>
+      <!-- Funil Conectado em 4 Etapas -->
+      <div class="authority-funnel">
+        <div class="funnel-step">
+          <div class="step-num-badge">01</div>
+          <h3 class="step-title font-bold">Conteúdo Relevante</h3>
+          <p class="step-desc">As pessoas param quando reconhecem uma dúvida real ou um problema que vivem. Frequência mantém presença; relevância conquista atenção.</p>
+          <div class="step-arrow-connector" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
           </div>
-          <div class="case-body">
-            <div class="case-meta"><span>E-COMMERCE · 2026</span><span>YATAGARASU</span></div>
-            <h3>LUMINA® BOUTIQUE</h3>
-            <p>Jornada de compra fluida com checkout sem fricção, atmosfera de luxo contemporâneo e carregamento ultra-rápido para moda autoral.</p>
-            <div class="case-tags">
-              <span class="tag-pill">E-commerce</span>
-              <span class="tag-pill">Design System</span>
-              <span class="tag-pill">Checkout Otimizado</span>
-            </div>
-          </div>
-        </article>
+        </div>
 
-        <article class="case-card">
-          <div class="case-visual">
-            <div class="object-code">&lt;/&gt;</div>
+        <div class="funnel-step">
+          <div class="step-num-badge">02</div>
+          <h3 class="step-title font-bold">Perfil &amp; Identidade</h3>
+          <p class="step-desc">Você não precisa falar de tudo, precisa ser lembrado por algo. Uma identidade visual e verbal coesa que ancora autoridade imediata.</p>
+          <div class="step-arrow-connector" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
           </div>
-          <div class="case-body">
-            <div class="case-meta"><span>SOFTWARE & SAAS · 2026</span><span>YATAGARASU</span></div>
-            <h3>MATRIX FLOW LABS</h3>
-            <p>Dashboard dark mode de alta precisão com visualização de dados em tempo real e arquitetura sem dependências pesadas de terceiros.</p>
-            <div class="case-tags">
-              <span class="tag-pill">Código Sob Medida</span>
-              <span class="tag-pill">Dashboard</span>
-              <span class="tag-pill">Zero Dívida Técnica</span>
-            </div>
-          </div>
-        </article>
+        </div>
 
-        <article class="case-card">
-          <div class="case-visual">
-            <div class="object-phone"><span>AURA<br>ARCH.</span><b>↗</b></div>
+        <div class="funnel-step highlight-step">
+          <div class="step-num-badge badge-yatagarasu">03</div>
+          <h3 class="step-title font-bold title-gradient">Site Estratégico</h3>
+          <p class="step-desc">Onde o interesse vira decisão. Uma experiência rápida, autoral e com narrativa de valor que afasta curiosos e atrai clientes de alto padrão.</p>
+          <div class="step-arrow-connector" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
           </div>
-          <div class="case-body">
-            <div class="case-meta"><span>LANDING PAGE · 2026</span><span>YATAGARASU</span></div>
-            <h3>AURA ARQUITETURA</h3>
-            <p>Landing page editorial projetada para captar clientes de alto ticket através de storytelling persuasivo e performance técnica impecável.</p>
-            <div class="case-tags">
-              <span class="tag-pill">Alta Conversão</span>
-              <span class="tag-pill">SEO Técnico</span>
-              <span class="tag-pill">Core Web Vitals &lt; 1s</span>
-            </div>
+        </div>
+
+        <div class="funnel-step">
+          <div class="step-num-badge">04</div>
+          <h3 class="step-title font-bold">Contato Sem Fricção</h3>
+          <p class="step-desc">O interesse encontra um destino claro. Formulário inteligente ou botão direto no WhatsApp com briefing formatado para fechar negócio.</p>
+        </div>
+      </div>
+
+      <!-- Card Interativo de Contraste: Post / Abordagem Comum vs. Estratégico -->
+      <div class="funnel-contrast-card">
+        <div class="contrast-col contrast-wrong">
+          <div class="contrast-badge">
+            <span class="badge-icon">✕</span>
+            <span>ABORDAGEM COMUM DE MERCADO</span>
           </div>
-        </article>
+          <blockquote class="contrast-quote">
+            “Conheça nossos serviços de desenvolvimento web e faça um orçamento.”
+          </blockquote>
+          <p class="contrast-explanation">
+            Genérico, focado em si mesmo e invisível. Ninguém para a rolagem para ler propostas sem contexto. Gera pouca atenção e atrai clientes que só disputam preço.
+          </p>
+        </div>
+
+        <div class="contrast-divider" aria-hidden="true">
+          <span>VS</span>
+        </div>
+
+        <div class="contrast-col contrast-right">
+          <div class="contrast-badge">
+            <span class="badge-icon">✓</span>
+            <span>POSICIONAMENTO YATAGARASU</span>
+          </div>
+          <blockquote class="contrast-quote">
+            “Seu site recebe visitas, mas ninguém entra em contato? Veja 3 obstáculos invisíveis que estão afastando clientes de alto padrão.”
+          </blockquote>
+          <p class="contrast-explanation">
+            Fala de um problema real, gera identificação imediata e posiciona sua marca como a solução natural. Visibilidade atrai; autoridade fecha contrato.
+          </p>
+        </div>
+      </div>
+
+      <div class="funnel-cta-strip">
+        <p class="funnel-strip-text">
+          <span class="font-bold highlight-cyan">Visibilidade abre a porta.</span> <span class="font-light">Confiança faz a pessoa entrar.</span>
+        </p>
+        <a class="circle-link" href="#contato">
+          <span>
+            <svg class="icon-arrow icon-arrow-diagonal" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+          </span>
+          Construir presença estratégica
+        </a>
       </div>
     </section>
 
-    <!-- METODOLOGIA: NOSSO PROCESSO TEM 4 ETAPAS (ACORDEÃO INTERATIVO KIMURA) -->
-    <section id="metodologia" class="section">
-      <div class="kimura-title" style="text-align:center;max-width:750px;margin-inline:auto;">
+    <!-- METODOLOGIA: NOSSO PROCESSO TEM 5 ETAPAS (ESTÚDIO KIMURA INTERACTIVE STAGE) -->
+    <section id="metodologia" class="section reveal">
+      <div class="kimura-title">
         <span class="eyebrow">METODOLOGIA PROPRIETÁRIA</span>
-        <h2>NOSSO PROCESSO TEM 4 ETAPAS</h2>
-        <p style="margin-inline:auto;">Combinamos imersão analítica, direção criativa de impacto e engenharia de software para transformar sua presença na internet.</p>
+        <h2 class="kimura-heading">
+          <span class="font-light">NOSSO PROCESSO TEM</span>
+          <span class="font-black">5 ETAPAS</span>
+        </h2>
       </div>
 
-      <div class="accordion-wrapper">
-        <div class="accordion-item active">
-          <button class="accordion-header" type="button" aria-expanded="true">
-            <div class="accordion-title-wrap">
-              <span class="accordion-num">01 /</span>
-              <span class="accordion-name">EIXO — Imersão & Diagnóstico de Fricção</span>
-            </div>
-            <span class="accordion-icon">+</span>
+      <!-- Stage Interativo Estilo Kimura -->
+      <div class="kimura-methodology-stage">
+        <!-- Coluna 1: Seletores verticais -->
+        <div class="method-nav" role="tablist" aria-label="Etapas da Metodologia">
+          <button class="method-pill active" data-step="0" role="tab" aria-selected="true">
+            <span>01 / IMERSÃO</span>
+            <svg class="icon-arrow icon-arrow-right" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
           </button>
-          <div class="accordion-body">
-            <p>Mapeamos seu modelo de negócio, seus diferenciais e o comportamento real do seu cliente antes de desenhar qualquer tela. Identificamos com precisão os pontos de atrito que fazem visitantes abandonarem o seu site atual sem entrar em contato.</p>
-            <div class="accordion-deliverables">
-              <span class="deliv-badge">✓ Auditoria de UX e Conversão</span>
-              <span class="deliv-badge">✓ Mapeamento de Concorrência</span>
-              <span class="deliv-badge">✓ Definição de Premissas Técnicas</span>
+          <button class="method-pill" data-step="1" role="tab" aria-selected="false">
+            <span>02 / ESTRATÉGIA</span>
+            <svg class="icon-arrow icon-arrow-right" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </button>
+          <button class="method-pill" data-step="2" role="tab" aria-selected="false">
+            <span>03 / DIREÇÃO DE ARTE</span>
+            <svg class="icon-arrow icon-arrow-right" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </button>
+          <button class="method-pill" data-step="3" role="tab" aria-selected="false">
+            <span>04 / ENGENHARIA</span>
+            <svg class="icon-arrow icon-arrow-right" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </button>
+          <button class="method-pill" data-step="4" role="tab" aria-selected="false">
+            <span>05 / LANÇAMENTO</span>
+            <svg class="icon-arrow icon-arrow-right" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </button>
+
+          <a class="button-cta-pill" href="#contato">
+            Agendar uma conversa
+            <svg class="icon-arrow icon-arrow-diagonal" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+          </a>
+        </div>
+
+        <!-- Coluna 2: Conteúdo profundo e citação de impacto -->
+        <div class="method-content-col" id="method-display">
+          <h3 class="method-quote font-bold" id="method-quote">
+            Um mergulho no universo do negócio, pois sabemos que design sem estratégia é só um desenho.
+          </h3>
+          <p class="method-desc" id="method-desc">
+            Conduzimos uma imersão analítica para compreender a empresa em profundidade: sua história, ambições, modelo de negócio e visão de futuro. Mapeamos os pontos de fricção exatos que fazem clientes desistirem da compra no seu site atual.
+          </p>
+          <div class="method-deliverables" id="method-delivs">
+            <span class="deliv-badge">✓ Auditoria de UX e Conversão</span>
+            <span class="deliv-badge">✓ Mapeamento de Concorrência</span>
+            <span class="deliv-badge">✓ Definição de Premissas Técnicas</span>
+          </div>
+        </div>
+
+        <!-- Coluna 3: Resultado & Glifo 3D -->
+        <div class="method-result-col">
+          <div class="result-header">
+            <span class="result-label">Resultado</span>
+            <p class="result-text" id="method-result">
+              Alinhamento total entre posicionamento da marca, proposta de valor e comportamento real do público, com diretrizes sólidas para as próximas fases.
+            </p>
+          </div>
+          <div class="method-visual-card">
+            <div class="abstract-glyph" id="method-glyph" aria-hidden="true">
+              <svg viewBox="0 0 160 160" width="120" height="120" fill="none">
+                <circle cx="80" cy="80" r="60" stroke="#38bdf8" stroke-width="2" stroke-dasharray="6 6"/>
+                <ellipse cx="80" cy="80" rx="45" ry="25" stroke="#ec4899" stroke-width="2.5" transform="rotate(-25 80 80)"/>
+                <circle cx="80" cy="80" r="10" fill="#ffffff" filter="drop-shadow(0 0 10px #38bdf8)"/>
+              </svg>
+            </div>
+            <span class="glyph-tag" id="method-tag">FASE 01 / IMERSÃO</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS (ACORDEÃO MONUMENTAL EDITORIAL ESTILO KIMURA) -->
+    <section id="servicos" class="section reveal">
+      <div class="kimura-title">
+        <span class="eyebrow">SOLUÇÕES &amp; ESPECIALIDADES</span>
+        <h2 class="kimura-heading">
+          <span class="font-light">O QUE NÓS</span>
+          <span class="font-black">CRIAMOS</span>
+        </h2>
+      </div>
+
+      <div class="kimura-services-accordion">
+        <!-- SERVIÇO 01 -->
+        <div class="service-row active">
+          <button class="service-trigger" type="button" aria-expanded="true">
+            <span class="service-name font-black">Sites institucionais</span>
+            <span class="service-toggle-btn">
+              <svg class="icon-plus" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </span>
+          </button>
+          <div class="service-drawer">
+            <div class="service-drawer-inner">
+              <p class="service-intro font-medium">
+                Coerência visual e autoridade imediata em todos os pontos de contato, com uma presença digital que sustenta o valor percebido do seu negócio.
+              </p>
+              <div class="service-columns">
+                <div class="service-col">
+                  <strong>Identidade Digital</strong>
+                  <span>Direção de arte autoral</span>
+                  <span>Design system exclusivo</span>
+                </div>
+                <div class="service-col">
+                  <strong>Estratégia &amp; Conteúdo</strong>
+                  <span>Copywriting persuasivo</span>
+                  <span>Hierarquia de conversão</span>
+                </div>
+                <div class="service-col">
+                  <strong>Engenharia de Código</strong>
+                  <span>Core Web Vitals &lt; 1s</span>
+                  <span>SEO técnico indexável</span>
+                </div>
+                <div class="service-col-cta">
+                  <a class="pill-outline-btn" href="#contato" data-service="Site institucional">
+                    Solicitar proposta
+                    <svg class="icon-arrow icon-arrow-right" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="accordion-item">
-          <button class="accordion-header" type="button" aria-expanded="false">
-            <div class="accordion-title-wrap">
-              <span class="accordion-num">02 /</span>
-              <span class="accordion-name">ARQUITETURA — Estratégia de Conteúdo & Wireframes</span>
-            </div>
-            <span class="accordion-icon">+</span>
+        <!-- SERVIÇO 02 -->
+        <div class="service-row">
+          <button class="service-trigger" type="button" aria-expanded="false">
+            <span class="service-name font-black">Landing pages</span>
+            <span class="service-toggle-btn">
+              <svg class="icon-plus" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </span>
           </button>
-          <div class="accordion-body">
-            <p>Estruturamos a jornada cognitiva do usuário. Cada título, argumento, imagem e botão de chamada para ação (CTA) é posicionado estrategicamente para construir autoridade progressiva e conduzir o visitante naturalmente até a decisão de contato.</p>
-            <div class="accordion-deliverables">
-              <span class="deliv-badge">✓ Copywriting Persuasivo</span>
-              <span class="deliv-badge">✓ Fluxograma de Navegação</span>
-              <span class="deliv-badge">✓ Hierarquia de Conversão</span>
+          <div class="service-drawer">
+            <div class="service-drawer-inner">
+              <p class="service-intro font-medium">
+                Páginas focadas em uma oferta única e magnética, desenhadas para transformar tráfego pago ou orgânico em clientes qualificados direto no WhatsApp.
+              </p>
+              <div class="service-columns">
+                <div class="service-col">
+                  <strong>Psicologia de Vendas</strong>
+                  <span>Storytelling de alta retenção</span>
+                  <span>Gatilhos de autoridade</span>
+                </div>
+                <div class="service-col">
+                  <strong>Fricção Zero</strong>
+                  <span>Botões de contato imediatos</span>
+                  <span>Formulários inteligentes</span>
+                </div>
+                <div class="service-col">
+                  <strong>Performance Extrema</strong>
+                  <span>Carregamento em milissegundos</span>
+                  <span>Mobile-first impecável</span>
+                </div>
+                <div class="service-col-cta">
+                  <a class="pill-outline-btn" href="#contato" data-service="Landing page">
+                    Solicitar proposta
+                    <svg class="icon-arrow icon-arrow-right" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="accordion-item">
-          <button class="accordion-header" type="button" aria-expanded="false">
-            <div class="accordion-title-wrap">
-              <span class="accordion-num">03 /</span>
-              <span class="accordion-name">SURGE — Direção de Arte & Identidade Digital</span>
-            </div>
-            <span class="accordion-icon">+</span>
+        <!-- SERVIÇO 03 -->
+        <div class="service-row">
+          <button class="service-trigger" type="button" aria-expanded="false">
+            <span class="service-name font-black">Lojas virtuais &amp; E-commerce</span>
+            <span class="service-toggle-btn">
+              <svg class="icon-plus" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </span>
           </button>
-          <div class="accordion-body">
-            <p>Construímos uma presença visual exclusiva e memorável. Nada de templates pré-fabricados de WordPress que seus concorrentes também usam: tipografia monumental, iluminação volumétrica dramática, microinterações fluidas e acabamento editorial.</p>
-            <div class="accordion-deliverables">
-              <span class="deliv-badge">✓ Design System Exclusivo</span>
-              <span class="deliv-badge">✓ Microinterações a 60 fps</span>
-              <span class="deliv-badge">✓ Visual Futurismo Digital</span>
+          <div class="service-drawer">
+            <div class="service-drawer-inner">
+              <p class="service-intro font-medium">
+                Experiências de compra envolventes da descoberta ao checkout fluido, pensadas para marcas autorais e negócios que prezam pela elegância.
+              </p>
+              <div class="service-columns">
+                <div class="service-col">
+                  <strong>Catálogo Imersivo</strong>
+                  <span>Apresentação editorial de produtos</span>
+                  <span>Filtros rápidos e intuitivos</span>
+                </div>
+                <div class="service-col">
+                  <strong>Checkout Otimizado</strong>
+                  <span>Jornada sem distrações</span>
+                  <span>Gateways modernos integrados</span>
+                </div>
+                <div class="service-col">
+                  <strong>Escalabilidade</strong>
+                  <span>Integrações logísticas</span>
+                  <span>Painel de gestão simples</span>
+                </div>
+                <div class="service-col-cta">
+                  <a class="pill-outline-btn" href="#contato" data-service="Loja virtual">
+                    Solicitar proposta
+                    <svg class="icon-arrow icon-arrow-right" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="accordion-item">
-          <button class="accordion-header" type="button" aria-expanded="false">
-            <div class="accordion-title-wrap">
-              <span class="accordion-num">04 /</span>
-              <span class="accordion-name">SINA — Engenharia de Código & Lançamento</span>
-            </div>
-            <span class="accordion-icon">+</span>
+        <!-- SERVIÇO 04 -->
+        <div class="service-row">
+          <button class="service-trigger" type="button" aria-expanded="false">
+            <span class="service-name font-black">Código sob medida &amp; Dashboards</span>
+            <span class="service-toggle-btn">
+              <svg class="icon-plus" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </span>
           </button>
-          <div class="accordion-body">
-            <p>Desenvolvimento em código limpo, ultra-rápido (Core Web Vitals perfeitos abaixo de 1 segundo), 100% responsivo para mobile e desktop, com integrações diretas de WhatsApp, formulários dinâmicos e preparação completa para SEO técnico e inteligências artificiais.</p>
-            <div class="accordion-deliverables">
-              <span class="deliv-badge">✓ Código Limpo & Modular</span>
-              <span class="deliv-badge">✓ Carregamento Instantâneo</span>
-              <span class="deliv-badge">✓ SEO Técnico & Meta Tags</span>
+          <div class="service-drawer">
+            <div class="service-drawer-inner">
+              <p class="service-intro font-medium">
+                Desenvolvimento artesanal sem dívida técnica, construído especificamente para as necessidades operacionais e regras de negócio da sua empresa.
+              </p>
+              <div class="service-columns">
+                <div class="service-col">
+                  <strong>Zero Plugins Lentos</strong>
+                  <span>Código limpo e sustentável</span>
+                  <span>Arquitetura modular</span>
+                </div>
+                <div class="service-col">
+                  <strong>Interfaces Avançadas</strong>
+                  <span>Dashboards interativos</span>
+                  <span>Visualização de dados dinâmica</span>
+                </div>
+                <div class="service-col">
+                  <strong>Segurança &amp; APIs</strong>
+                  <span>Proteção contra vulnerabilidades</span>
+                  <span>Conexões seguras de backend</span>
+                </div>
+                <div class="service-col-cta">
+                  <a class="pill-outline-btn" href="#contato" data-service="Desenvolvimento sob medida">
+                    Solicitar proposta
+                    <svg class="icon-arrow icon-arrow-right" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPARATIVO: SITE COMUM VS. YATAGARASU -->
+    <section id="comparativo" class="section reveal">
+      <div class="kimura-title" style="text-align:center;max-width:800px;margin-inline:auto;">
+        <span class="eyebrow">DIFERENCIAL DE VALOR</span>
+        <h2 class="kimura-heading">
+          <span class="font-light">O QUE SEPARA UM SITE COMUM</span><br>
+          <span class="font-black title-gradient">DE UM ATIVO DE ALTO VALOR?</span>
+        </h2>
+        <p style="margin-inline:auto;">Investir em um site não é apenas ter uma página na web. É definir a percepção que o mercado tem sobre a qualidade do seu trabalho.</p>
+      </div>
+
+      <div class="comparison-grid">
+        <div class="comp-col comp-common">
+          <div class="comp-header">
+            <span class="comp-badge">SITE COMUM DE MERCADO</span>
+            <h3>Templates Prontos &middot; R$ 500</h3>
+          </div>
+          <ul class="comp-list">
+            <li><span class="comp-cross">&times;</span> Tema genérico de WordPress que dezenas de concorrentes usam</li>
+            <li><span class="comp-cross">&times;</span> Lentidão no celular: 4 a 8 segundos para carregar</li>
+            <li><span class="comp-cross">&times;</span> Dívida técnica: plugins desatualizados que quebram o site</li>
+            <li><span class="comp-cross">&times;</span> Transmite imagem de empresa iniciante ou de baixo custo</li>
+            <li><span class="comp-cross">&times;</span> Formulários comuns que caem na caixa de spam</li>
+          </ul>
+        </div>
+
+        <div class="comp-col comp-yatagarasu">
+          <div class="comp-header">
+            <span class="comp-badge-pro">PADRÃO YATAGARASU</span>
+            <h3 class="title-gradient">Presença Digital Autoral</h3>
+          </div>
+          <ul class="comp-list">
+            <li><span class="comp-check">&check;</span> Direção de arte exclusiva e autoral que constrói autoridade instantânea</li>
+            <li><span class="comp-check">&check;</span> Velocidade extrema: carregamento abaixo de 1 segundo (Core Web Vitals)</li>
+            <li><span class="comp-check">&check;</span> Código limpo sob medida, sem dependências frágeis ou lentidão</li>
+            <li><span class="comp-check">&check;</span> Sustenta contratos de alto ticket e diferencia sua marca no mercado</li>
+            <li><span class="comp-check">&check;</span> Briefing dinâmico que encaminha o cliente qualificado direto no WhatsApp</li>
+          </ul>
         </div>
       </div>
     </section>
 
     <!-- MANIFESTO EDITORIAL ESTILO KIMURA -->
-    <section id="manifesto" class="section">
+    <section id="manifesto" class="section reveal">
       <div class="manifesto-box">
         <p class="manifesto-quote">
-          “Design sem estratégia é só um desenho. <em>Código sem arquitetura é dívida técnica.</em><br>
-          A YATAGARASU constrói presenças digitais para marcas que se recusam a ter <strong>um site comum</strong>.”
+          “<span class="font-light">Design sem estratégia é só um desenho.</span> <span class="font-bold highlight-cyan">Código sem arquitetura é dívida técnica.</span><br>
+          <span class="font-light">A YATAGARASU constrói presenças digitais para marcas que se recusam a ter</span> <span class="font-black highlight-pink">um site comum.</span>”
         </p>
-        <div class="manifesto-author">YATAGARASU DIGITAL STUDIO · TECNOLOGIA & DESIGN AUTORAL</div>
+        <div class="manifesto-author font-semibold">YATAGARASU DIGITAL STUDIO · TECNOLOGIA &amp; DESIGN AUTORAL</div>
       </div>
-    </section>
-
-    <!-- SOLUÇÕES DIGITAIS -->
-    <section id="solucoes" class="solutions section">
-      <div class="section-title">
-        <span class="eyebrow">ESCOLHA SEU PRÓXIMO PASSO</span>
-        <h2>QUAL É A SUA<br><em>PRÓXIMA DIMENSÃO?</em></h2>
-      </div>
-      <div class="solution-grid">
-        <a href="#contato" data-service="Site institucional" class="solution">
-          <div class="solution-visual visual-web">
-            <div class="object-window"><div></div><b>YOUR<br>BRAND.</b><span>↗</span></div>
-            <small>01</small>
-          </div>
-          <div class="solution-label">
-            <h3>Sites institucionais</h3>
-            <span>Descobrir ↗</span>
-          </div>
-        </a>
-
-        <a href="#contato" data-service="Landing page" class="solution">
-          <div class="solution-visual visual-landing">
-            <div class="object-phone"><span>MAKE<br>IT<br>HAPPEN.</span><b>↗</b></div>
-            <small>02</small>
-          </div>
-          <div class="solution-label">
-            <h3>Landing pages</h3>
-            <span>Descobrir ↗</span>
-          </div>
-        </a>
-
-        <a href="#contato" data-service="Loja virtual" class="solution">
-          <div class="solution-visual visual-store">
-            <div class="object-bag"><b>Y /</b></div>
-            <small>03</small>
-          </div>
-          <div class="solution-label">
-            <h3>Lojas virtuais</h3>
-            <span>Descobrir ↗</span>
-          </div>
-        </a>
-
-        <a href="#contato" data-service="Desenvolvimento sob medida" class="solution">
-          <div class="solution-visual visual-code">
-            <div class="object-code">&lt;/&gt;</div>
-            <small>04</small>
-          </div>
-          <div class="solution-label">
-            <h3>Código sob medida</h3>
-            <span>Descobrir ↗</span>
-          </div>
-        </a>
-      </div>
-    </section>
-
-    <!-- DIFERENCIAIS EM ÓRBITA 3D -->
-    <section id="diferenciais" class="game section numbered">
-      <span class="section-number">02</span>
-      <span class="eyebrow">A DIFERENÇA ESTÁ NA EXPERIÊNCIA.</span>
-      <h2>O SEU NOVO<br><em>PONTO DE VIRADA.</em></h2>
-      <div class="experience-orbit">
-        <div class="orbit-ring"></div>
-        <div class="glass-plane plane-back">
-          <span>ESTRATÉGIA</span>
-          <b>01 /</b>
-          <i></i><i></i><i></i>
-        </div>
-        <div class="glass-plane plane-front">
-          <span>DESIGN + CÓDIGO</span>
-          <b>Y /</b>
-          <div></div>
-          <small>FEITO PARA SUA MARCA.</small>
-        </div>
-        <a class="orbit-center" href="#experiencias" aria-label="Explorar experiências digitais">↗</a>
-        <div class="annotation an-one"><i></i>Identidade em cada pixel</div>
-        <div class="annotation an-two"><i></i>Navegação intuitiva</div>
-        <div class="annotation an-three"><i></i>Design responsivo</div>
-        <div class="annotation an-four"><i></i>Código sob medida</div>
-      </div>
-      <a class="circle-link" href="#experiencias">Explore as possibilidades <span>↗</span></a>
     </section>
 
     <!-- EXPERIÊNCIAS INTERATIVAS (SHOWCASE) -->
-    <section id="experiencias" class="section showcase">
+    <section id="experiencias" class="section showcase reveal">
       <div class="section-heading">
         <div>
           <div class="eyebrow">EXPLORE AS POSSIBILIDADES</div>
-          <h2>DESIGN QUE MARCA.<br><em>EXPERIÊNCIAS QUE CONECTAM.</em></h2>
+          <h2 class="kimura-heading">
+            <span class="font-black">DESIGN QUE MARCA.</span><br>
+            <span class="font-light">EXPERIÊNCIAS QUE CONECTAM.</span>
+          </h2>
         </div>
         <p>Veja como objetivos diferentes pedem arquiteturas digitais diferentes. Escolha uma experiência para explorar.</p>
       </div>
@@ -320,17 +545,26 @@
         <div class="experience-controls" role="tablist" aria-label="Tipos de experiência">
           <button role="tab" id="tab-brand" aria-controls="experience-panel" aria-selected="true" data-demo="brand">
             <span>01 / PRESENÇA</span>
-            <strong>Uma marca memorável <b>↗</b></strong>
+            <strong>
+              Uma marca memorável 
+              <svg class="icon-arrow icon-arrow-diagonal" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </strong>
             <small>Apresente sua essência com clareza e personalidade.</small>
           </button>
           <button role="tab" id="tab-store" aria-controls="experience-panel" aria-selected="false" tabindex="-1" data-demo="store">
             <span>02 / E-COMMERCE</span>
-            <strong>Uma jornada de compra <b>↗</b></strong>
+            <strong>
+              Uma jornada de compra 
+              <svg class="icon-arrow icon-arrow-diagonal" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </strong>
             <small>Conecte descoberta, desejo e decisão.</small>
           </button>
           <button role="tab" id="tab-system" aria-controls="experience-panel" aria-selected="false" tabindex="-1" data-demo="system">
             <span>03 / SOB MEDIDA</span>
-            <strong>Uma operação mais fluida <b>↗</b></strong>
+            <strong>
+              Uma operação mais fluida 
+              <svg class="icon-arrow icon-arrow-diagonal" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </strong>
             <small>Organize processos em interfaces intuitivas.</small>
           </button>
         </div>
@@ -338,7 +572,9 @@
           <div class="browser-bar">
             <div><i></i><i></i><i></i></div>
             <span>YATAGARASU / LAB CRIATIVO</span>
-            <span>↗</span>
+            <span>
+              <svg class="icon-arrow icon-arrow-diagonal" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </span>
           </div>
           <div class="demo-screen" data-current="brand">
             <div class="demo-brand">
@@ -351,7 +587,10 @@
                   <span>DESIGN QUE SE SENTE.</span>
                   <h3>O extraordinário<br>mora no <em>essencial.</em></h3>
                   <p>Uma nova perspectiva sobre os espaços que habitamos.</p>
-                  <span class="mini-button">Explore a coleção ↗</span>
+                  <span class="mini-button">
+                    Explore a coleção
+                    <svg class="icon-arrow icon-arrow-diagonal" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                  </span>
                 </div>
                 <div class="sculpture" aria-hidden="true"></div>
               </div>
@@ -406,41 +645,74 @@
     </section>
 
     <!-- DÚVIDAS FREQUENTES (FAQ) -->
-    <section class="faq section numbered" id="duvidas">
+    <section class="faq section numbered reveal" id="duvidas">
       <span class="section-number">03</span>
-      <div class="faq-photo"></div>
-      <h2>BOAS PERGUNTAS.<br><em>RESPOSTAS CLARAS.</em></h2>
+      <div class="kimura-title" style="text-align:center;max-width:750px;margin-inline:auto;">
+        <span class="eyebrow">TRANSPARÊNCIA TOTAL</span>
+        <h2 class="kimura-heading">
+          <span class="font-light">BOAS PERGUNTAS.</span>
+          <span class="font-black">RESPOSTAS CLARAS.</span>
+        </h2>
+      </div>
       <div class="questions">
         <details open>
-          <summary>Qual solução faz sentido para a minha marca?<span>+</span></summary>
+          <summary>
+            Qual solução faz sentido para a minha marca?
+            <span>
+              <svg class="icon-plus" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </span>
+          </summary>
           <p>Uma landing page concentra uma oferta específica com foco em conversão imediata; um site institucional constrói autoridade de longo prazo para sua empresa; um e-commerce estrutura vendas com catálogo e checkout fluido. O briefing abaixo ajuda a definir exatamente o melhor caminho para o seu momento.</p>
         </details>
         <details>
-          <summary>O site vai funcionar perfeitamente no celular?<span>+</span></summary>
+          <summary>
+            O site vai funcionar perfeitamente no celular?
+            <span>
+              <svg class="icon-plus" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </span>
+          </summary>
           <p>Sim, 100%. Desenvolvemos com filosofia mobile-first. Mais de 80% do tráfego hoje vem de smartphones, portanto garantimos botões confortáveis (mínimo 44x44px), carregamento instantâneo e layout impecável em telas de qualquer tamanho.</p>
         </details>
         <details>
-          <summary>Como são definidos os prazos e o investimento?<span>+</span></summary>
+          <summary>
+            Como são definidos os prazos e o investimento?
+            <span>
+              <svg class="icon-plus" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </span>
+          </summary>
           <p>A partir do escopo, das entregas necessárias e da complexidade técnica. Apresentamos uma proposta detalhada com cronograma claro antes de iniciar qualquer desenvolvimento.</p>
         </details>
         <details>
-          <summary>Preciso ter todo o conteúdo e imagens prontos?<span>+</span></summary>
+          <summary>
+            Preciso ter todo o conteúdo e imagens prontos?
+            <span>
+              <svg class="icon-plus" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </span>
+          </summary>
           <p>Não. Na etapa de Arquitetura e Estratégia, ajudamos a estruturar os textos persuasivos (copywriting), a hierarquia das seções e as imagens ideais para o seu projeto.</p>
         </details>
         <details>
-          <summary>Vocês usam temas prontos do WordPress?<span>+</span></summary>
+          <summary>
+            Vocês usam temas prontos do WordPress?
+            <span>
+              <svg class="icon-plus" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </span>
+          </summary>
           <p>Não. Criamos layouts autorais e código sob medida, sem as vulnerabilidades de segurança, lentidão e poluição de plugins que tornam sites comuns lentos e difíceis de manter.</p>
         </details>
       </div>
     </section>
 
     <!-- FORMULÁRIO DE QUALIFICAÇÃO & CONVERSÃO HIGH-TICKET -->
-    <section id="contato" class="contact section">
+    <section id="contato" class="contact section reveal">
       <div>
         <span class="eyebrow">VAMOS CONVERSAR</span>
-        <h2>UMA IDEIA.<br><em>UM NOVO HORIZONTE.</em></h2>
+        <h2 class="kimura-heading">
+          <span class="font-black">UMA IDEIA.</span><br>
+          <span class="font-light">UM NOVO HORIZONTE.</span>
+        </h2>
         <p>Conte sobre o seu negócio e o que você quer construir. Qualifique sua demanda para iniciarmos o projeto com o direcionamento ideal.</p>
-        <span class="contact-note">YATAGARASU / DIGITAL STUDIO</span>
+        <span class="contact-note font-semibold">YATAGARASU / DIGITAL STUDIO</span>
       </div>
 
       <form id="brief">
@@ -473,36 +745,69 @@
         <label for="idea">Conte seus objetivos</label>
         <textarea id="idea" required placeholder="Quais são os principais desafios da sua marca e o que você espera que o novo site alcance?" rows="3"></textarea>
 
-        <button class="button primary" type="submit">Preparar proposta no WhatsApp <span>↗</span></button>
+        <button class="button primary" type="submit">
+          <span>Preparar proposta no WhatsApp</span>
+          <span class="button-arrow">
+            <svg class="icon-arrow icon-arrow-diagonal" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+          </span>
+        </button>
         <p class="form-note">Seu briefing será estruturado automaticamente para atendimento imediato.</p>
 
         <div id="result" hidden role="status">
           <p>Seu briefing foi estruturado com sucesso. Clique abaixo para enviar direto no WhatsApp ou copie o resumo:</p>
           <div class="actions">
-            <a id="whatsapp-send" class="button-whatsapp" target="_blank" rel="noopener noreferrer" href="#">Conversar no WhatsApp ↗</a>
+            <a id="whatsapp-send" class="button-whatsapp" target="_blank" rel="noopener noreferrer" href="#">
+              Conversar no WhatsApp
+              <svg class="icon-arrow icon-arrow-diagonal" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </a>
             <button type="button" id="copy">Copiar briefing</button>
-            <button type="button" id="download">Baixar .txt ↓</button>
+            <button type="button" id="download">
+              Baixar .txt
+              <svg class="icon-arrow icon-arrow-down" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+            </button>
           </div>
         </div>
       </form>
     </section>
   </main>
 
-  <footer>
-    <a href="#" class="footer-brand">
-      <span class="footer-brand-title">
-        <img src="assets/logo.png" alt="" class="footer-logo" width="48" height="48">
-        YATAGARASU
-      </span>
-      <span>↗</span>
-    </a>
-    <div>
-      <span>Design com propósito. Código com identidade.</span>
-      <a href="#">Voltar ao topo ↑</a>
-      <span>© 2026 YATAGARASU DIGITAL STUDIO</span>
+  <!-- FOOTER MONUMENTAL (KIMURA WATERMARK SIGNATURE) -->
+  <footer class="kimura-monumental-footer">
+    <div class="footer-top-row">
+      <div class="footer-cta-block">
+        <h2 class="footer-headline font-black">
+          Vamos conversar<br>
+          <span class="font-light">sobre o seu projeto?</span>
+        </h2>
+        <a class="footer-cta-pill" href="#contato">
+          <span>Agendar uma conversa</span>
+          <span class="pill-icon">
+            <svg class="icon-arrow icon-arrow-diagonal" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+          </span>
+        </a>
+      </div>
+      <div class="footer-links-col">
+        <a href="#estrategia">Estratégia</a>
+        <a href="#metodologia">Metodologia</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#comparativo">Diferenciais</a>
+        <a href="#manifesto">Manifesto</a>
+      </div>
+      <div class="footer-right-col">
+        <a href="#" class="back-to-top">
+          Voltar ao topo
+          <svg class="icon-arrow icon-arrow-up" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+        </a>
+        <span class="footer-copy">&copy; 2026 YATAGARASU DIGITAL STUDIO<br>Todos os direitos reservados.</span>
+      </div>
+    </div>
+
+    <!-- Marca Gigante Monumental Estilo Kimura -->
+    <div class="footer-monumental-wordmark" aria-hidden="true">
+      Yatagarasu<span>®</span>
     </div>
   </footer>
 
-  <script src="app.js?v=7"></script>
+  <script src="app.js?v=12"></script>
 </body>
 </html>
